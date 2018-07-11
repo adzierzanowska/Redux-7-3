@@ -30,7 +30,7 @@ const boundEditComment = (text, id) => dispatch(editComment(text, id));
 
 // REMOVE COMMENT //
 
-const REMOVE_COMMENT = 'REMOVE COMMENT';
+const REMOVE_COMMENT = 'REMOVE_COMMENT';
 
 function removeComment(id) {
     return {
